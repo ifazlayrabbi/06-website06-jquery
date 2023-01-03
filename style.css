@@ -1,0 +1,38 @@
+
+body {
+    background-color: #c4beb9;
+    margin: 7% 15%;
+    /* text-align: center; */
+}
+/* h1 {font: 3rem cursive;} */
+p {
+    font-size: 2rem;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.large {
+    font-family: cursive;
+    /* font-weight: 100; */
+}
+
+.property {
+    border: 10px solid greenyellow;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    padding: 50px;
+    display: inline-block;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(155, 60, 155);
+    font: 2rem cursive;
+
+}
+a:hover {
+    color: rgb(87, 33, 235);
+}
