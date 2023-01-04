@@ -77,7 +77,8 @@ $('h1').text('jQuery')
 // })
 $('h1').on('mouseover', function(){
     $('h1').css('color', 'purple')
-    setTimeout(function(){$('h1').css('color', 'green')}, 500)
+    setTimeout(function(){
+        $('h1').css('color', 'green')}, 500)
 })
 
 $('input').keydown(function(event){
@@ -149,7 +150,7 @@ $('button').click(function(){
 
     // $('a').animate({opacity: 0.5})
     // $('a').animate({margin: '50%'})
-    
+
     // $('a').slideUp().slideDown().animate({opacity: 0.5})
     $('a').slideUp().delay(800).fadeIn()
 })
