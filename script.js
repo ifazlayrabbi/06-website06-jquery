@@ -138,14 +138,18 @@ $('button').click(function(){
     // $('a').hide()
     // $('a').show()
     // $('a').toggle()
+
     // $('a').fadeOut()
     // $('a').fadeIn()
     // $('a').fadeToggle()
+
     // $('a').slideUp()
     // $('a').slideDown()
     // $('a').slideToggle()
+
     // $('a').animate({opacity: 0.5})
     // $('a').animate({margin: '50%'})
+    
     // $('a').slideUp().slideDown().animate({opacity: 0.5})
     $('a').slideUp().delay(800).fadeIn()
 })
