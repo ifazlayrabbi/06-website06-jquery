@@ -150,6 +150,7 @@ $('button').click(function(){
 
     // $('a').animate({opacity: 0.5})
     // $('a').animate({margin: '50%'})
+    // $('a').animate({backgroundColor: "#FFFFFF"}, 1500)
 
     // $('a').slideUp().slideDown().animate({opacity: 0.5})
     $('a').slideUp().delay(800).fadeIn()
